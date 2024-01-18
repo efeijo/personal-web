@@ -19,7 +19,7 @@
       {{ range $i, $e := .Params.techs }}
         {{- with $.Site.GetPage "taxonomyTerm" (printf "techs/%s" ( urlize .)) -}}
           {{- if $i -}}<span>- </span>{{ end }}
-         <span>{{ .Title }}</span>
+          <span>{{ .Title }}</span>
         {{ end }}
       {{ end }}
     </span>
