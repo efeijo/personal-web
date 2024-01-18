@@ -40,7 +40,7 @@ pygmentsCodeFences=true
 [params]
   breadcrumb = true
   accentColor = "#FD3519"
-  mainSections = ['portfolio']
+  mainSections = ['job']
   rendererSafe = true # set to true if the renderer is not marked unsafe
 
 [params.notFound]
@@ -50,7 +50,7 @@ pygmentsCodeFences=true
 
 [params.sections]
   post = "article"
-  portfolio = "project"
+  job = "project"
 
 [params.sidebar]
   backgroundImage = ''
@@ -88,10 +88,10 @@ pygmentsCodeFences=true
   weight = -120
 
 [[menu.main]]
-  identifier = "portfolio"
-  name = "Portfolio"
-  title = "Portfolio"
-  url = "/portfolio/"
+  identifier = "job"
+  name = "job"
+  title = "job"
+  url = "/job/"
   weight = -110
 
 [[menu.main]]
@@ -142,7 +142,7 @@ You can also customize the params with the  `params.sidebar` parameters. The `co
 The 404 page is defined within the `params.notFound` section.
 The `gopher`, `h1` and `p` params define the image and texts displayed on the page. 
 
-In the `[params]` section, the `mainSections` params possible values are 'portfolio' or 'post': it defines the section highlighted on the page.
+In the `[params]` section, the `mainSections` params possible values are 'job' or 'post': it defines the section highlighted on the page.
 
 NB: to see the 404 page from your development env, check `/404.html`.
 
@@ -153,15 +153,15 @@ NB: to see the 404 page from your development env, check `/404.html`.
   p = "It seems that this page doesn't exist."
 
 [params]
-  mainSections = ['portfolio']
+  mainSections = ['job']
 ```
 
-You can also define how the post and portfolio sections will be named on the 404 page, thanks to the `params.sections` params.
+You can also define how the post and job sections will be named on the 404 page, thanks to the `params.sections` params.
 
 ```TOML
 [params.sections]
   post = "article"
-  portfolio = "project"
+  job = "project"
 ```
 
 ## Customization

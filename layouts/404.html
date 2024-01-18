@@ -6,8 +6,8 @@
 
 {{ if .Site.Params.mainSections }}
   {{ $scratch := newScratch }}
-  {{ if in .Site.Params.mainSections "portfolio" }}
-    {{ $scratch.Set "section" .Site.Params.sections.portfolio }}
+  {{ if in .Site.Params.mainSections "job" }}
+    {{ $scratch.Set "section" .Site.Params.sections.job }}
   {{ else }}
     {{ $scratch.Set "section" (.Site.Params.sections.post) }}
   {{ end }}
@@ -15,8 +15,8 @@
   <p>While you're here, you can check out my last {{ $scratch.Get "section" }}:</p>
   {{ $pages := where site.RegularPages "Type" "in" .Site.Params.mainSections }}
   {{ range first 1 $pages }}
-    {{ if in .Site.Params.mainSections "portfolio" }}
-      {{ partial "portfolio/item" .}}
+    {{ if in .Site.Params.mainSections "job" }}
+      {{ partial "job/item" .}}
     {{ else if in .Site.Params.mainSections "post" }}
       {{ partial "post/item" .}}
     {{ end }}

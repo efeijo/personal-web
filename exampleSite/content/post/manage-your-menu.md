@@ -23,10 +23,10 @@ The following setup will define 3 URLs in your sidebar menu, in order of weight.
   weight = -120
 
 [[menu.main]]
-  identifier = "portfolio"
-  name = "Portfolio"
-  title = "Portfolio"
-  url = "/portfolio/"
+  identifier = "job"
+  name = "job"
+  title = "job"
+  url = "/job/"
   weight = -110
 
 [[menu.main]]

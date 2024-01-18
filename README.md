@@ -1,6 +1,6 @@
 # Personal Web
 
-Personal Web is a simple Hugo template to build a personal website including portfolio and blog sections. It will mainly suit freelancers who want to showcase their work.
+Personal Web is a simple Hugo template to build a personal website including job and blog sections. It will mainly suit freelancers who want to showcase their work.
 
 ## [Demo website](https://personal-web-example.netlify.com/post/)
 
@@ -25,7 +25,7 @@ For more information read the official [setup guide](https://gohugo.io/getting-s
 ## Screenshots
 
 ![Home](https://raw.githubusercontent.com/bjacquemet/personal-web/master/images/screenshot.png)
-![Portfolio](https://raw.githubusercontent.com/bjacquemet/personal-web/master/images/tn.png)
+![job](https://raw.githubusercontent.com/bjacquemet/personal-web/master/images/tn.png)
 ![Article](https://raw.githubusercontent.com/bjacquemet/personal-web/master/images/post.png)
 
 

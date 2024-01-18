@@ -19,6 +19,6 @@ Browse the articles in the `content/post` folder to get any help during setup or
 
 Then **configure the `config.toml` file** to match your need.
 
-You should then write you home (`/content/_index.md`), create your first project (see the [portfolio definition](/content/post/portfolio-definition.md "portfolio definition") and your first blogpost.
+You should then write you home (`/content/_index.md`), create your first project (see the [job definition](/content/post/job-definition.md "job definition") and your first blogpost.
 
 Lastly, define the menu in the sidebar: you can get some help in the `/content/post/manage-your-menu.md` file.

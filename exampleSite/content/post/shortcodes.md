@@ -19,7 +19,7 @@ results in
 
 {{< figure src="/post/images/sample_image.jpg" caption="Photo by Tim Mossholder on Unsplash" >}}
 
-**Note:** files are kept in a `images` folder, directly in the post/portfolio folder.
+**Note:** files are kept in a `images` folder, directly in the post/job folder.
 
 
 ## Add a single Tweet

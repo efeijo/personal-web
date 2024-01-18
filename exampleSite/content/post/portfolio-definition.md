@@ -1,13 +1,13 @@
 ---
-title: Portfolio Definition
-description: How to define your portfolio in FrontMatter
+title: job Definition
+description: How to define your job in FrontMatter
 date: "2019-05-02T19:49:05+02:00"
 publishDate: "2019-05-02T19:49:05+02:00"
 ---
 
-Here are some details about the portfolio settings.
+Here are some details about the job settings.
 
-{{< figure src="/post/images/portfolio-example.png" caption="Example of Portfolio page" >}}
+{{< figure src="/post/images/job-example.png" caption="Example of job page" >}}
 
 <!--more-->
 
@@ -30,7 +30,7 @@ testimonial:
 ---
 ```
 
-Here are some explanations about the portfolio FrontMatter:
+Here are some explanations about the job FrontMatter:
 - `jobDate` is the year displayed on the list and show of your project
 - `work` is displayed on the list of projects. It is an array of type of job that you did on the project.
 - `techs` and `designs` are displayed on the show page of your project. It is an array of tools you used on the project

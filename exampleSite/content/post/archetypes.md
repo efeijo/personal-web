@@ -5,7 +5,7 @@ date: "2019-05-02T19:25:30+02:00"
 publishDate: "2019-05-02T19:25:30+02:00"
 ---
 
-The archetypes are defined in the `archetypes` folder, for both post and portfolio.
+The archetypes are defined in the `archetypes` folder, for both post and job.
 
 <!--more-->
 

@@ -1,8 +1,10 @@
 {{ partial "header" .}}
 
 <h2>{{ .Data.Term | humanize }}</h2>
+<br>
+<br>
 {{ range .Data.Pages }}
-    {{ partial "portfolio/item" .}}
+    {{ partial "post/item" .}}
 {{ end }}
 
 {{ partial "footer" .}}

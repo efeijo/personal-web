@@ -1,6 +1,6 @@
 ---
-title: PORTFOLIO
-description: 'Portfolio Section'
+title: job
+description: 'job Section'
 ---
 
-You'll add here a general introduction of your portfolio page.
+You'll add here a general introduction of your job page.
